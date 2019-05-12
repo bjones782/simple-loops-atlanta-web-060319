@@ -15,11 +15,9 @@ end
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
    counter = 1
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  loop do 
+   phrase = "Welcome to Flatiron School's Web Development Course!"
+   number_of_times.times do
     puts phrase
-    break if counter == number_of_times
-    counter += 1
   end
 end
 
